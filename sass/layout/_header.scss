@@ -1,0 +1,41 @@
+.header {
+    padding: 40px 30px 82px 30px;
+    background-color: rgba(49, 63, 56, 1);
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        &-logo {
+            font-family: Helvetica;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(233, 230, 221, 1);
+        }
+
+        &-list {
+            display: flex;
+            gap: 70px;
+
+            &-item {
+                &-link {
+                    font-family:Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    color: rgba(255, 252, 246, 1);
+                }
+            }
+        }
+
+        &-tel {
+            font-family:Helvetica;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+            color: rgba(255, 252, 246, 1);
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css");
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Miracle";
+  src: url(../../fonts/Miracle.otf) format("otf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../../fonts/Helvetica.otf) format("otf");
+}
+body {
+  font-family: Helvetica;
+}
+
+.header {
+  padding: 40px 30px 82px 30px;
+  background-color: rgb(49, 63, 56);
+}
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header-wrap-logo {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(233, 230, 221);
+}
+.header-wrap-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+}
+.header-wrap-list-item-link {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(255, 252, 246);
+}
+.header-wrap-tel {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(255, 252, 246);
+}/*# sourceMappingURL=main.css.map */
